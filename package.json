@@ -1,0 +1,20 @@
+{
+  "name": "webworker",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server -d"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "@types/random-js": "^1.0.31",
+    "@types/ws": "^6.0.1",
+    "random-js": "^1.0.8",
+    "ws": "^6.1.2"
+  }
+}
